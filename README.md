@@ -1,5 +1,6 @@
 ![image](https://github.com/kevinxiaowu/CL_climbv1/assets/25411386/17d3b237-de25-4d26-a1fe-a2ad2e4b2a05)# CL_climbv1
 Advancing Continual Learning: Towards an Optimized Model Architecture for Adaptive AI Systems
+
 CLiMB is a benchmark to study the challenge of learning multimodal tasks in a CL setting, and to systematically evaluate how upstream continual learning can rapidly generalize to new multimodal and unimodal tasks.
 
 CLiMB evaluates candidate CL models and learning algorithms in two phases. For Phase I, Upstream Continual Learning, a pre-trained multimodal model is trained on a sequence of vision-and-language tasks, and evaluated after each task on its degree of Forgetting of past tasks and Knowledge Transfer to the next task. For Phase II, after each multimodal task the model is evaluated for its Downstream Low-Shot Transfer capability on both multimodal and unimodal tasks.
